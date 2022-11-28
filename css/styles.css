@@ -674,6 +674,20 @@ ul{
   .modal-textarea:focus{
     border-color: #2196F3;
   }
+  .checkbox-icon{
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    fill: transparent;
+  }
+ .checkbox:checked + .checkbox-icon{
+    background-color: #2196F3;
+    border: none;
+    fill: #FFFFFF;
+ }
   .button-close-icon{
     display: flex;
     text-align: center;
